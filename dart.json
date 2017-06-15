@@ -1,0 +1,27 @@
+{
+	"url": "http://stellar.dartmouth.edu/models/isolf_new.html",
+	"request_url": "http://stellar.dartmouth.edu/models/isolf_new.php",
+	"download_url": "http://stellar.dartmouth.edu/models",
+	"query_options": ["int", "out", "age", "feh", "hel", "afe",
+		        "clr", "flt", "bin", "imf", "pls", "lnm", "lns"],
+	"int_option": ["Cubic", "Linear"],
+	"out_option": ["isochrone only", "isochrone & lum function"],
+	"age_range_low": 1,
+	"age_range_high": 15,
+	"age": "",
+	"feh": 0,
+	"feh_range_low": -2.5,
+	"feh_range_high": 0.5,
+	"hel_options": ["Y=0.245+1.5*Z", "Y=0.33", "Y=0.40"],
+	"afe_options": [-0.2, 0, 0.2, 0.4, 0.6, 0.8],
+	"Av_value": 0,
+	"defaults": {
+		"int": 1,
+		"out": 1,
+		"age": "",
+		"feh": 0,
+		"hel": 1,
+		"afe": 2,
+		"clr": 1
+	}
+}
